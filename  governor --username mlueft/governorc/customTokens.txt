@@ -1,0 +1,5 @@
+lines without double points are ignored
+
+mnemonic|opdoce
+
+isOpen:1024
