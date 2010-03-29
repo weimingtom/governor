@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/halo" minWidth="1024" minHeight="768" initialize="application1_initializeHandler(event)" enterFrame="application1_enterFrameHandler(event)">
+	<fx:Script>
+		<![CDATA[
+			import at.lueftenegger.governor.Scheduler;
+			import gsc.Governor;
+			import mx.events.FlexEvent;
+
+			private var _governor:Scheduler;
+			protected function application1_initializeHandler(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				_governor = new Scheduler();
+				
+				Governor.fillScripts();
+				
+				_governor.start(Governor.scripts["script1"]);
+				
+			}
+
+
+			protected function application1_enterFrameHandler(event:Event):void
+			{
+				// TODO Auto-generated method stub
+				_governor.main();
+			}
+
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:Application>

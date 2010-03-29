@@ -1,0 +1,18 @@
+<projectDescription>
+  <id>1269894272500</id>
+  <name>example2</name>
+  <asVersion>0</asVersion>
+  <boundTemplate>file:///C|/Dokumente und Einstellungen/work/Lokale Einstellungen/Anwendungsdaten/Adobe/Flash CS4/de/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+  <classTemplate>file:///C|/Dokumente und Einstellungen/work/Lokale Einstellungen/Anwendungsdaten/Adobe/Flash CS4/de/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+  <classPath>.\src</classPath>
+  <defaultApp/>
+  <rootURI>file:///D|/programming/AS3/governor/trunk/examples/example2/</rootURI>
+  <flexSDK/>
+  <sources editable="false"/>
+  <libraries editable="false"/>
+  <externalLibraries editable="false"/>
+  <compileList editable="false"/>
+  <recentFiles editable="false">
+  </recentFiles>
+  <locations editable="false"/>
+</projectDescription>
