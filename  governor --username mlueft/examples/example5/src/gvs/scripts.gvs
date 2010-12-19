@@ -1,0 +1,49 @@
+=script1
+	
+	push	#threadB
+	fork
+	jmp
+	
+threadA:
+	
+	push	"threadA:0"
+	trace
+	push	"threadA:1"
+	trace
+	push	"threadA:2"
+	trace
+	push	"threadA:3"
+	trace
+	push	"threadA:4"
+	trace
+	push	"threadA:5"
+	trace
+	push	"threadA:6"
+	trace
+
+	// jump to the end of the program
+	push	#threadEnd
+	gto
+	
+threadB:
+
+	push	"threadB:0"
+	trace
+	push	"threadB:1"
+	trace
+	push	"threadB:2"
+	trace
+	push	"threadB:3"
+	trace
+	push	"threadB:4"
+	trace
+	push	"threadB:5"
+	trace
+	push	"threadB:6"
+	trace
+	push	"threadB:7"
+	trace
+	
+threadEnd:	
+		non
+		

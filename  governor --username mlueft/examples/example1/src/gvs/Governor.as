@@ -1,4 +1,4 @@
-package gsc{
+package gvs{
  public class Governor{
   public static var scripts:Array = [];
   public static function fillScripts():void{
