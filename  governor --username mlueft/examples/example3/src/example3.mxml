@@ -5,7 +5,7 @@
 	<fx:Script>
 		<![CDATA[
 			import at.lueftenegger.governor.Scheduler;
-			import gsc.Governor;
+			import gvs.Governor;
 			import mx.events.FlexEvent;
 
 			private var _governor:Scheduler;

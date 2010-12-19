@@ -5,7 +5,7 @@
 :: http://livedocs.adobe.com/flex/3/html/help.html?content=CommandLineTools_5.html#1035959
 
 :: Path to Flex SDK binaries
-set PATH=%PATH%;C:\flexsdk32Air2\bin
+set PATH=%PATH%;C:\sdks\air2\bin
 
 :: Signature (see 'CreateCertificate.bat')
 set CERTIFICATE=SelfSigned.pfx

@@ -1,7 +1,6 @@
 rem define the correct paths here
 
 set pathGovernor=D:\programme\governorc\
-set pathProject=D:\programming\AS3\03_tools\governor\trunk\examples\example3\
+set pathProject=D:\programming\AS3\03_tools\governor\trunk\examples\example4\
 
-rem this line calls the compiler with the defined parameters to compile scripts.gsc to Governor.as
 %pathGovernor%governorc.exe -if %pathProject%src\gvs\scripts.gvs -of %pathProject%src\gvs\ -ct %pathProject%customTokens.txt -ns gvs -v AS3 -on Governor

@@ -1,5 +1,6 @@
 ﻿package 
 {
+	import at.lueftenegger.governor.OpCodes;
 	import at.lueftenegger.governor.Scheduler;
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -43,7 +44,7 @@
 			// execute scripts in the script engine
 			_governor.main();
 			
-			if (frame++ == 10) {
+			if (frame++ == 100) {
 				removeEventListener(Event.ENTER_FRAME, enterFrame);
 			}
 		}

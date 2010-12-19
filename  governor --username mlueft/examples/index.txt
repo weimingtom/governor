@@ -1,0 +1,5 @@
+example1 - Shows how to use governor in a FlashDevelop-project.
+example2 - Shows how to use governor in a FlashIDE-project.
+example3 - Shows how to use governor in a FlashBuilder-project.
+example4 - demonstrates some basic governor scripts.
+example5 - demonstrates multithreading.

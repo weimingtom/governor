@@ -144,7 +144,8 @@ package at.lueftenegger.stackmachine.processes{
 			while( thread ){
 				if( thread.id == threadId){
 					thread.prev.next = thread.next;
-					thread.next.prev = thread.prev;
+					if(thread.next)
+						thread.next.prev = thread.prev;
 					_numberThreads--;
 					return;
 				}

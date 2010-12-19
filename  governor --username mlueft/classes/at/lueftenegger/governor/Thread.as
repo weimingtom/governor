@@ -180,7 +180,7 @@ package at.lueftenegger.governor{
 			
 			var cmd:int;
 			var e:int;
-
+			
 			do {
 				// The opFunction returns the movement of the code pointer.
 				// push returns 2, because it's a function with one parameter.

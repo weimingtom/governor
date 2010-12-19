@@ -1,0 +1,86 @@
+=script1
+
+	threadlock
+	
+	// A SIMPLE LOOP
+	// init the loop variable
+	push	-1
+	push	"a"
+	sts
+	
+// loop entry point
+loopstartA:
+	
+	// increment the counter
+	push	"a"
+	lds
+	inc
+	push	"a"
+	sts
+	
+	// do something in the loop
+	// trace the counter
+	push	"inside the loop :"
+	push	"a"
+	lds
+	add
+	trace
+	
+	// check exit condition
+	push	#loopstartA
+	push	"a"
+	lds
+	push	4
+	les
+	jmp
+	
+	push	"after loop"
+	trace
+	
+	// some math
+	
+	push	"A circle with the diameter: 3"
+	trace
+	push	"has got an admeasurement of:"
+	trace
+	
+	push	3
+//	push	pi	!!! don't push contansts !!!
+	pi
+	mul
+	trace
+	
+	
+	
+	threadunlock
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

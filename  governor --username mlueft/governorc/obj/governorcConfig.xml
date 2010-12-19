@@ -4,18 +4,31 @@
 <flex-config>
   <target-player>10.0.0</target-player>
   <compiler>
+    <define append="true">
+      <name>CONFIG::debug</name>
+      <value>true</value>
+    </define>
+    <define append="true">
+      <name>CONFIG::release</name>
+      <value>false</value>
+    </define>
+    <define append="true">
+      <name>CONFIG::timeStamp</name>
+      <value>'19.12.2010'</value>
+    </define>
     <source-path append="true">
-      <path-element>D:\programming\AS3\governor\trunk\governorc\src</path-element>
-      <path-element>D:\programming\AS3\governor\trunk\classes</path-element>
+      <path-element>D:\programming\AS3\03_tools\governor\trunk\governorc\src</path-element>
+      <path-element>D:\programming\AS3\03_tools\governor\trunk\classes</path-element>
       <path-element>D:\programming\AS3\00_lib</path-element>
+      <path-element>C:\Programme\Adobe\Adobe Flash CS4\Common\Configuration\ActionScript 3.0\projects\Flash\src</path-element>
       <path-element>C:\Programme\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <external-library-path append="true">
-      <path-element>D:\programming\AS3\governor\trunk\governorc</path-element>
+      <path-element>D:\programming\AS3\03_tools\governor\trunk\governorc</path-element>
     </external-library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\programming\AS3\governor\trunk\governorc\src\Main.as</path-element>
+    <path-element>D:\programming\AS3\03_tools\governor\trunk\governorc\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

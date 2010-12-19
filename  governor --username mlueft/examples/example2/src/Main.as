@@ -3,7 +3,7 @@
 	import flash.events.Event;	
 	import flash.display.MovieClip;
 
-	import src.gsc.Governor;
+	import src.gvs.Governor;
 	import at.lueftenegger.governor.*;
 	
 	public class Main extends MovieClip {
